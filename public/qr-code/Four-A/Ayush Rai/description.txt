@@ -1,0 +1,13 @@
+{
+    "student_name": "Ayush Rai",
+    "student_id": "38",
+    "guardian_id": "11",
+    "student_username": "s7725",
+    "guardian_username": "p5973",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "2",
+    "guardian_contact": "9803536089",
+    "sex": "male",
+    "current_address": "maitidevi"
+}

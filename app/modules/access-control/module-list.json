@@ -1,0 +1,7 @@
+[
+	{"module_name" : "module1",
+     "is_active" : "yes"} ,
+
+     {"module_name" : "module2",
+     "is_active" : "yes"}
+]

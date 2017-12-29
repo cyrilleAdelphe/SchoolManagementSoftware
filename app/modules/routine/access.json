@@ -1,0 +1,62 @@
+{
+    "can_view": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "alias": "Can View",
+        "routes": [
+            "routine-list"
+        ]
+    },
+    "can_create": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Create",
+        "routes": [
+            "routine-create-get",
+            "routine-create-post"
+        ]
+    },
+    "can_edit": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Edit",
+        "routes": [
+            "routine-edit-get",
+            "routine-edit-post"
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Delete",
+        "routes": [
+            "routine-delete-post",
+            "routine-purge-post"
+        ]
+    }
+}

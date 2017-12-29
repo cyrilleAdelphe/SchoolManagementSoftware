@@ -1,0 +1,13 @@
+{
+    "student_name": "Salina Shrestha",
+    "student_id": "97",
+    "guardian_id": "23",
+    "student_username": "s3118",
+    "guardian_username": "p0405",
+    "student_image": "_MTQ3MTUxNTg2Mw==57b58cd7aaa9a.jpg",
+    "guardian_image": "_MTQ3MTY5NjM0Nw==57b84ddbb56c3.jpg",
+    "current_roll_number": "19",
+    "guardian_contact": "9841200134",
+    "sex": "female",
+    "current_address": "Bagbazar, Kathmandu"
+}

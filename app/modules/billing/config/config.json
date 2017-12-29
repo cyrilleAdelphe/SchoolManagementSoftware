@@ -1,0 +1,7 @@
+{
+    "start_month": 9,
+    "start_day": 1,
+    "late_fee_days": 7,
+    "late_fee_amount": 0,
+    "late_fee_tax_applicable": "yes"
+}

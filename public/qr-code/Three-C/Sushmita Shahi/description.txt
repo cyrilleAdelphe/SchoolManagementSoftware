@@ -1,0 +1,13 @@
+{
+    "student_name": "Sushmita Shahi",
+    "student_id": "33",
+    "guardian_id": "10",
+    "student_username": "s5738",
+    "guardian_username": "p7143",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "1",
+    "guardian_contact": "015678333",
+    "sex": "female",
+    "current_address": "Gaushala"
+}

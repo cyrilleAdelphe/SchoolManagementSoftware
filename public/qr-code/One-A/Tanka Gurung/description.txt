@@ -1,0 +1,13 @@
+{
+    "student_name": "Tanka Gurung",
+    "student_id": "93",
+    "guardian_id": "22",
+    "student_username": "s4535",
+    "guardian_username": "p0358",
+    "student_image": "_MTQ3MTUxMjMxMw==57b57ef96c986.jpg",
+    "guardian_image": "_MTQ3MTUxMjYxMA==57b58022685c8.jpg",
+    "current_roll_number": "0",
+    "guardian_contact": "",
+    "sex": "male",
+    "current_address": ""
+}

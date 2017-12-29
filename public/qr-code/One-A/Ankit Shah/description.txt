@@ -1,0 +1,13 @@
+{
+    "student_name": "Ankit Shah",
+    "student_id": "75",
+    "guardian_id": "18",
+    "student_username": "s2896",
+    "guardian_username": "p7024",
+    "student_image": "_MTQ3MDU2MTA5Mw==57a6fb459c180.jpg",
+    "guardian_image": "_MTQ2Nzg3MDgwOQ==577dee59b7152.jpg",
+    "current_roll_number": "1",
+    "guardian_contact": "9816088976",
+    "sex": "male",
+    "current_address": "Baneshowr"
+}

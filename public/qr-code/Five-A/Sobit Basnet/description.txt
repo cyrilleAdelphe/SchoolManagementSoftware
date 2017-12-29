@@ -1,0 +1,13 @@
+{
+    "student_name": "Sobit Basnet",
+    "student_id": "82",
+    "guardian_id": "18",
+    "student_username": "s8405",
+    "guardian_username": "p7024",
+    "student_image": "_MTQ2Nzg2OTEyOA==577de7c81980b.jpg",
+    "guardian_image": "_MTQ2Nzg3MDgwOQ==577dee59b7152.jpg",
+    "current_roll_number": "1",
+    "guardian_contact": "9851051051",
+    "sex": "male",
+    "current_address": "Mahankal, Boudha"
+}

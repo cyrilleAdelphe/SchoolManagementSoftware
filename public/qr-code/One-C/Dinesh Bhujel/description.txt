@@ -1,0 +1,13 @@
+{
+    "student_name": "Dinesh Bhujel",
+    "student_id": "10",
+    "guardian_id": "4",
+    "student_username": "s7563",
+    "guardian_username": "p4561",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "0",
+    "guardian_contact": "012345623",
+    "sex": "male",
+    "current_address": "maitidevi"
+}

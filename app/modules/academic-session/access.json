@@ -1,0 +1,83 @@
+{
+    "can_migrate_session": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can Migrate Session",
+        "routes": [
+
+        ]
+    },
+    "can_view": {
+        "admin": [
+            "8",
+            "9",
+            "10"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": [
+            "academic-session-list",
+            "academic-session-view",
+            "academic-session-create-post"
+        ]
+    },
+    "can_create": {
+        "admin": [
+
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": [
+            "academic-session-create-get",
+            "academic-session-create-post"
+        ]
+    },
+    "can_edit": {
+        "admin": [
+
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": [
+            "academic-session-edit-get",
+            "academic-session-edit-post"
+        ]
+    },
+    "can_delete": {
+        "admin": [
+
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": [
+            "academic-session-delete-post",
+            "academic-session-purge-post",
+            "academic-session-purge-record-post"
+        ]
+    }
+}

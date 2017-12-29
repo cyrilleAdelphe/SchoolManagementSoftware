@@ -1,0 +1,106 @@
+[
+    {
+        "id": "1",
+        "alias": "First Name",
+        "column_name": "student_name",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "2",
+        "alias": "Last Name",
+        "column_name": "last_name",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "3",
+        "alias": "Username",
+        "column_name": "username",
+        "table": "users",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "4",
+        "alias": "Class",
+        "column_name": "class_name",
+        "table": "classess",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "5",
+        "alias": "Section",
+        "column_name": "section_code",
+        "table": "sections",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "6",
+        "alias": "Address",
+        "column_name": "current_address",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "no"
+    },
+    {
+        "id": "7",
+        "alias": "Primary Contact",
+        "column_name": "guardian_contact",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "8",
+        "alias": "Secondary Contact",
+        "column_name": "secondary_contact",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "9",
+        "alias": "Sex",
+        "column_name": "sex",
+        "table": "student_registration",
+        "hidden": "no",
+        "show": "no"
+    },
+    {
+        "id": "10",
+        "alias": "House",
+        "column_name": "house_name",
+        "table": "houses",
+        "hidden": "no",
+        "show": "yes"
+    },
+    {
+        "id": "11",
+        "alias": "Ethnicity",
+        "column_name": "ethnicity_name",
+        "table": "ethnicity",
+        "hidden": "no",
+        "show": "no"
+    },
+    {
+        "id": "12",
+        "alias": "Guardian",
+        "column_name": "guardian_name",
+        "table": "guardians",
+        "hidden": "no",
+        "show": "no"
+    },
+    {
+        "id": "13",
+        "alias": "Relation",
+        "column_name": "relationship",
+        "table": "student_guardian_relation",
+        "hidden": "no",
+        "show": "no"
+    }
+]

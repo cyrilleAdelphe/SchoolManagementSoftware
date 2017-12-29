@@ -1,0 +1,13 @@
+{
+    "student_name": "Zashma Rai",
+    "student_id": "43",
+    "guardian_id": "13",
+    "student_username": "s7954",
+    "guardian_username": "p3406",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "3",
+    "guardian_contact": "012378990",
+    "sex": "female",
+    "current_address": "baneshowr"
+}

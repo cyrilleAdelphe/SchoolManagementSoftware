@@ -1,0 +1,13 @@
+{
+    "student_name": "Sudip Rai",
+    "student_id": "88",
+    "guardian_id": "19",
+    "student_username": "s0295",
+    "guardian_username": "p4174",
+    "student_image": "_MTQ3MTQyMDMwNA==57b4179098bf5.jpg",
+    "guardian_image": "",
+    "current_roll_number": "34",
+    "guardian_contact": "",
+    "sex": "male",
+    "current_address": ""
+}

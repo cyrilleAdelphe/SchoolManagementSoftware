@@ -1,0 +1,65 @@
+{
+    "can_view": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": []
+    },
+    "can_create": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": []
+    },
+    "can_edit": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": []
+    },
+    "can_get_study_materials": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can get study materials",
+        "routes": []
+    },
+    "can_delete": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": []
+    }
+}

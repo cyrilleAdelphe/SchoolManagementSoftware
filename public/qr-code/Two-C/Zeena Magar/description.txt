@@ -1,0 +1,13 @@
+{
+    "student_name": "Zeena Magar",
+    "student_id": "22",
+    "guardian_id": "7",
+    "student_username": "s0641",
+    "guardian_username": "p6491",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "2",
+    "guardian_contact": "9816088976",
+    "sex": "female",
+    "current_address": "Koteshowr"
+}

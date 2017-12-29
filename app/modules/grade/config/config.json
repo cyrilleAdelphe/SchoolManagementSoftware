@@ -1,0 +1,56 @@
+[
+    {
+        "from": "0",
+        "to": "20",
+        "grade": "E",
+        "grade_point": "0.8"
+    },
+    {
+        "from": "20",
+        "to": "30",
+        "grade": "D",
+        "grade_point": "1.2"
+    },
+    {
+        "from": "30",
+        "to": "40",
+        "grade": "D+",
+        "grade_point": "1.6"
+    },
+    {
+        "from": "40",
+        "to": "50",
+        "grade": "C",
+        "grade_point": "2.0"
+    },
+    {
+        "from": "50",
+        "to": "60",
+        "grade": "C+",
+        "grade_point": "2.4"
+    },
+    {
+        "from": "60",
+        "to": "70",
+        "grade": "B",
+        "grade_point": "2.8"
+    },
+    {
+        "from": "70",
+        "to": "80",
+        "grade": "B+",
+        "grade_point": "3.2"
+    },
+    {
+        "from": "80",
+        "to": "90",
+        "grade": "A",
+        "grade_point": "3.6"
+    },
+    {
+        "from": "90",
+        "to": "100",
+        "grade": "A+",
+        "grade_point": "4.0"
+    }
+]

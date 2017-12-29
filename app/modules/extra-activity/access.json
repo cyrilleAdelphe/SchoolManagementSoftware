@@ -1,0 +1,68 @@
+{
+    "can_view": {
+        "admin": [
+            "8",
+            "9"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": []
+    },
+    "can_create": {
+        "admin": [
+            "8",
+            "9",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": []
+    },
+    "can_send_push_notification": {
+        "admin": [
+            "8",
+            "9",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Send Push Notification",
+        "routes": []
+    },
+    "can_edit": {
+        "admin": [
+            "8",
+            "9",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": []
+    },
+    "can_delete": {
+        "admin": [
+            "9",
+            "13",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": []
+    }
+}

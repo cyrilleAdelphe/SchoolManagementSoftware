@@ -1,0 +1,13 @@
+{
+    "student_name": "Pramod Pandey",
+    "student_id": "27",
+    "guardian_id": "9",
+    "student_username": "s8633",
+    "guardian_username": "p9265",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "3",
+    "guardian_contact": "9816077453",
+    "sex": "male",
+    "current_address": "maitidevi"
+}

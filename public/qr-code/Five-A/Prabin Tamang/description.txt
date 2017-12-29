@@ -1,0 +1,13 @@
+{
+    "student_name": "Prabin Tamang",
+    "student_id": "90",
+    "guardian_id": "21",
+    "student_username": "s4401",
+    "guardian_username": "p9931",
+    "student_image": "_MTQ3MTUxMjA0OA==57b57df04f37f.jpg",
+    "guardian_image": "_MTQ3MTUxMjUwOQ==57b57fbd30aba.jpg",
+    "current_roll_number": "0",
+    "guardian_contact": "",
+    "sex": "male",
+    "current_address": ""
+}

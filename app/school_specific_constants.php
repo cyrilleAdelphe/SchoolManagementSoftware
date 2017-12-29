@@ -1,0 +1,17 @@
+<?php
+
+//define("GOOGLE_API_KEY", "AIzaSyCd4dWqXpClywpCsl-bk_6bj6nzjpDxj88");
+/*define("GOOGLE_API_KEY", "AAAA8e5yWNw:APA91bGu4h4hO6gWXOAB9uDGfb9Aw7fbM3A41mD114b2r7oqLqiad9tyI-WodeBkaLc3eweiOwbLx1WKPT2O6t6A58MYcTAJoLBTmKIvK83AWigMULec4pJ7MPOvJgrtS5-IMp-h-lJH");*/
+define("GOOGLE_API_KEY", "AAAAZWQ9znA:APA91bHPkYu9poZIIiKkiPFVlXz479UIqLqkTn5W9MZxlY9b0OiZT9j0EW68puEveaBn6hSc9Awl2i_5vsvR7iX8w4VRB3ihR_QaGiF51hGeuBf9kIKD_8W1SVAlxZ32SNzFfN50cq1P");
+define("YOUTUBE_KEY", 'AIzaSyDDZVLVuVBBHhGRJcDDoFKWiFFse2nJdiM');
+define("MAP_API_KEY", 'AIzaSyCd4dWqXpClywpCsl-bk_6bj6nzjpDxj88');
+
+define('DEFAULT_PASSWORD', 'password');
+define('SCHOOL_UNIQUE_ID', 1);
+
+define("SMS_TOKEN", "a0B1w0y3EJFw6MlOqTIx");
+define("SMS_FROM", "Notice");
+
+define("FACEBOOK_APP_ID", '1239587019426907');
+define("FACEBOOK_APP_SECRET", '67e80e401081381dd7010cdaece0969d');
+define("FACEBOOK_CLIENT_ID", '1620807514805558');

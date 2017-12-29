@@ -1,0 +1,156 @@
+{
+    "can_view": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "16",
+            "18"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": [
+            "report-list",
+            "report-class",
+            "report-single"
+        ]
+    },
+    "can_create": {
+        "admin": [
+            "9",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": [
+            "report-generate-get",
+            "report-config-post",
+            "report-generate-post"
+        ]
+    },
+    "can_edit": {
+        "admin": [
+            "9",
+            "13",
+            "14"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": [
+            "report-generate-get",
+            "report-config-post",
+            "report-generate-post"
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "9",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": [
+
+        ]
+    },
+    "can_print": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Print",
+        "routes": [
+
+        ]
+    },
+    "can_generate_ledger": {
+        "admin": [
+            "9",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Generate Ledger",
+        "routes": [
+
+        ]
+    },
+    "can_generate_report_rank": {
+        "admin": [
+            "9",
+            "13",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Generate Report Rank",
+        "routes": [
+
+        ]
+    },
+    "can_create_remarks": {
+        "admin": [
+            "9",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Create Remarks ",
+        "routes": [
+
+        ]
+    },
+    "can_generate_report": {
+        "admin": [
+            "9",
+            "13",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Generate Report",
+        "routes": [
+
+        ]
+    }
+}

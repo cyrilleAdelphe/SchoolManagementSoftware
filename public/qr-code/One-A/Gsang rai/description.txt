@@ -1,0 +1,13 @@
+{
+    "student_name": "Gsang rai",
+    "student_id": "2",
+    "guardian_id": "16",
+    "student_username": "s6423",
+    "guardian_username": "p1691",
+    "student_image": "_MTQ3MTQyMDIzMg==57b41748d89d7.png",
+    "guardian_image": "",
+    "current_roll_number": "7",
+    "guardian_contact": "9804967843",
+    "sex": "male",
+    "current_address": "koteshwor"
+}

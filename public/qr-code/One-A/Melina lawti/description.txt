@@ -1,0 +1,13 @@
+{
+    "student_name": "Melina lawti",
+    "student_id": "3",
+    "guardian_id": "2",
+    "student_username": "s0798",
+    "guardian_username": "p5650",
+    "student_image": "_MTQ3MTQyNzkzOQ==57b43563b044c.jpg",
+    "guardian_image": "",
+    "current_roll_number": "0",
+    "guardian_contact": "9816789873",
+    "sex": "female",
+    "current_address": "baneshowr"
+}

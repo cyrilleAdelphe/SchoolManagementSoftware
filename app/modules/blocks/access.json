@@ -1,0 +1,64 @@
+{
+    "can_view": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "alias": "Can View",
+        "routes": [
+
+        ]
+    },
+    "can_create": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "7"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Create",
+        "routes": [
+
+        ]
+    },
+    "can_edit": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "7"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Edit",
+        "routes": [
+
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "2",
+            "3",
+            "4",
+            "7"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Delete",
+        "routes": [
+
+        ]
+    }
+}

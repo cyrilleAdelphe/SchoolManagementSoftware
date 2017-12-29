@@ -1,0 +1,13 @@
+{
+    "student_name": "Man Kumar Tamang",
+    "student_id": "92",
+    "guardian_id": "21",
+    "student_username": "s7449",
+    "guardian_username": "p9931",
+    "student_image": "_MTQ3MTUxMjI2NA==57b57ec8a8b6a.jpg",
+    "guardian_image": "_MTQ3MTUxMjUwOQ==57b57fbd30aba.jpg",
+    "current_roll_number": "0",
+    "guardian_contact": "",
+    "sex": "male",
+    "current_address": ""
+}

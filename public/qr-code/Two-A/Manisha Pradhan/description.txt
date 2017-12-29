@@ -1,0 +1,13 @@
+{
+    "student_name": "Manisha Pradhan",
+    "student_id": "14",
+    "guardian_id": "5",
+    "student_username": "s9626",
+    "guardian_username": "p4258",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "2",
+    "guardian_contact": "013456734",
+    "sex": "female",
+    "current_address": "Koteshowr"
+}

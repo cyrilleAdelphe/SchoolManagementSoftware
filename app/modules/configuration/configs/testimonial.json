@@ -1,0 +1,16 @@
+{
+    "header": "Testimoinals ",
+    "category_groups": {
+        "number_of_testimonials_to_show": {
+            "group_display_name": "Number of Testimonials to show",
+            "display": "no",
+            "fields": [
+                {
+                    "field_name": "no_of_displays",
+                    "field_value": "3",
+                    "display_name": "No of Displays"
+                }
+            ]
+        }
+    }
+}

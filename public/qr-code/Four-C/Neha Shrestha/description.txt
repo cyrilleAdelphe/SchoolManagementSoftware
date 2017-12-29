@@ -1,0 +1,13 @@
+{
+    "student_name": "Neha Shrestha",
+    "student_id": "46",
+    "guardian_id": "14",
+    "student_username": "s5812",
+    "guardian_username": "p7099",
+    "student_image": "",
+    "guardian_image": "_MTQ3MTQyMDUwOQ==57b4185d489a1.jpg",
+    "current_roll_number": "2",
+    "guardian_contact": "9003541122",
+    "sex": "female",
+    "current_address": "Koteshowr"
+}

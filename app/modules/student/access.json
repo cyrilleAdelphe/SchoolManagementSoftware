@@ -1,0 +1,94 @@
+{
+    "can_view": {
+        "admin": [
+            "10",
+            "16"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": []
+    },
+    "can_create": {
+        "admin": [
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": []
+    },
+    "can_import": {
+        "admin": [
+            "10",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Import",
+        "routes": []
+    },
+    "can_export": {
+        "admin": [
+            "8",
+            "10",
+            "13",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Export",
+        "routes": []
+    },
+    "can_edit": {
+        "admin": [
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": []
+    },
+    "can_migrate": {
+        "admin": [
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Migrate",
+        "routes": []
+    },
+    "can_show_report": {
+        "admin": [
+            "8",
+            "10",
+            "13",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Show Report",
+        "routes": []
+    },
+    "can_delete": {
+        "admin": [
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": []
+    },
+    "can_change_password": {
+        "admin": [
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Change Password",
+        "routes": []
+    }
+}

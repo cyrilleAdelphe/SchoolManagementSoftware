@@ -1,0 +1,59 @@
+{
+    "can_view": {
+        "admin": [
+            "14",
+            "16"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": [
+            "subject-list",
+            "subject-view",
+            "ajax-subject-get-teachers"
+        ]
+    },
+    "can_create": {
+        "admin": [
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": [
+            "subject-create-post",
+            "subject-create-get"
+        ]
+    },
+    "can_edit": {
+        "admin": [
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": [
+            "subject-edit-get",
+            "subject-edit-post"
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": [
+            "subject-delete-single-post",
+            "subject-delete-post",
+            "subject-purge-post"
+        ]
+    }
+}

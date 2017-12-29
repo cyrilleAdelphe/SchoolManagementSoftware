@@ -1,0 +1,349 @@
+[21-Jan-2016 08:48:43 Asia/Kathmandu] PHP Fatal error:  Class '' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 48
+[21-Jan-2016 12:14:32 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 40
+[21-Jan-2016 12:15:58 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 40
+[21-Jan-2016 12:16:28 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/message/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:78
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(78): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 78, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(78): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 78
+[21-Jan-2016 12:16:28 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/message/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 78
+[21-Jan-2016 12:17:11 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 218
+[21-Jan-2016 12:19:18 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 218
+[21-Jan-2016 12:31:07 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 218
+[21-Jan-2016 12:31:31 Asia/Kathmandu] PHP Fatal error:  Class 'PushNotifications' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 190
+[21-Jan-2016 12:31:40 Asia/Kathmandu] PHP Fatal error:  Class 'PushNotifications' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 190
+[21-Jan-2016 12:32:03 Asia/Kathmandu] PHP Fatal error:  Class 'PushNotifications' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 190
+[22-Jan-2016 14:37:42 Asia/Kathmandu] PHP Fatal error:  Class '' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 49
+[22-Feb-2016 15:41:05 Asia/Kathmandu] PHP Fatal error:  Class 'FeePayment' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 326
+[22-Feb-2016 15:48:52 Asia/Kathmandu] PHP Fatal error:  Call to undefined method HelperController::getCurrentSessionClassList() in /home/sparklew/public_html/esms/app/storage/views/c776c3a5a0ccad2f29a9bc152a126124 on line 227
+[28-Feb-2016 18:55:00 Asia/Kathmandu] PHP Fatal error:  Class 'ScholarshipMonthly' not found in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 389
+[01-Mar-2016 17:26:06 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/events/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:62
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(62): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 62, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(62): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Array in /home/sparklew/public_html/esms/app/routes.php on line 62
+[01-Mar-2016 17:26:06 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/events/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 62
+[01-Mar-2016 17:26:07 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/events/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:62
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(62): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 62, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(62): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Array in /home/sparklew/public_html/esms/app/routes.php on line 62
+[01-Mar-2016 17:26:07 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/events/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 62
+[01-Mar-2016 17:26:31 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/events/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:62
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(62): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 62, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(62): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Array in /home/sparklew/public_html/esms/app/routes.php on line 62
+[01-Mar-2016 17:26:31 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/events/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 62
+[02-Mar-2016 23:00:08 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/settings/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:92
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(92): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 92, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(92): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arr in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:00:08 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/settings/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:00:09 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/settings/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:92
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(92): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 92, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(92): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arr in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:00:09 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/settings/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:01:06 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/settings/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:92
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(92): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 92, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(92): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arr in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:01:06 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/settings/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:01:07 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/settings/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:92
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(92): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 92, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(92): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arr in /home/sparklew/public_html/esms/app/routes.php on line 92
+[02-Mar-2016 23:01:07 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/settings/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 92
+[13-Mar-2016 13:26:47 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:26:47 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:26:57 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:26:57 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:07 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:07 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:17 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:17 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:27 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:27 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:34 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:34 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:47 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:47 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:57 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/student/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:60
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(60): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 60, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(60): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(Arra in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:27:57 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/student/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 60
+[13-Mar-2016 13:29:08 Asia/Kathmandu] PHP Fatal error:  Class 'Excel' not found in /home/sparklew/public_html/esms/app/modules/student/StudentController.php on line 387
+[13-Mar-2016 13:35:29 Asia/Kathmandu] PHP Fatal error:  Class 'Excel' not found in /home/sparklew/public_html/esms/app/modules/student/StudentController.php on line 387
+[14-Mar-2016 15:10:19 Asia/Kathmandu] PHP Fatal error:  Call to a member function format() on a non-object in /home/sparklew/public_html/esms/app/storage/views/3d4ec6d953a4e5949a3e3a5ab58440d2 on line 124
+[15-Mar-2016 11:38:47 Asia/Kathmandu] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sparklew/public_html/esms/app/modules/assignments/AssignmentsController.php on line 61
+[15-Mar-2016 11:43:37 Asia/Kathmandu] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sparklew/public_html/esms/app/modules/assignments/AssignmentsController.php on line 61
+[24-Mar-2016 16:02:47 Asia/Kathmandu] PHP Fatal error:  Call to undefined method AttendanceHelperController::getStudentsForApi() in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 553
+[14-Apr-2016 16:03:04 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee-document/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:96
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(96): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 96, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(96): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCall in /home/sparklew/public_html/esms/app/routes.php on line 96
+[14-Apr-2016 16:03:04 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee-document/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 96
+[14-Apr-2016 16:15:51 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee-document/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:96
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(96): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 96, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(96): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCall in /home/sparklew/public_html/esms/app/routes.php on line 96
+[14-Apr-2016 16:15:51 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee-document/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 96
+[15-Apr-2016 12:58:15 Asia/Kathmandu] PHP Fatal error:  Call to a member function format() on a non-object in /home/sparklew/public_html/esms/app/storage/views/f69b76c3de25be977d9e2a6e1a66ea91 on line 15
+[15-Apr-2016 13:06:14 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected ')' in /home/sparklew/public_html/esms/app/storage/views/f69b76c3de25be977d9e2a6e1a66ea91 on line 16
+[15-Apr-2016 22:13:41 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 20:41:32 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 20:41:32 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 20:41:48 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 20:41:51 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 20:43:05 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:01:30 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:01:30 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:16:12 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:16:27 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:16:37 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:16:54 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:16:59 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:17:46 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:22:59 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:23:08 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:26:49 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:29:04 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:31:53 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:33:12 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:33:19 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:33:24 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:33:36 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:35:22 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:36:08 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:39:45 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:43:26 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:45:32 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:53:36 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:55:28 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:56:29 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:33 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:37 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:41 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:51 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:52 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:57:53 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:58:15 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:58:19 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:58:47 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:58:51 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:59:10 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 22:59:13 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:02:28 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:02:31 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:03:48 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:04:14 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:04:38 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:06:10 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:06:31 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:07:20 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:07:55 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:08:01 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:12:20 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:13:05 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:13:39 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[16-Apr-2016 23:13:43 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[17-Apr-2016 00:24:33 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[17-Apr-2016 00:24:33 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[17-Apr-2016 00:24:40 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1184
+[01-May-2016 13:36:28 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/sparklew/public_html/esms/app/modules/extra-activity/ExtraActivityController.php on line 195
+[01-May-2016 13:42:22 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/sparklew/public_html/esms/app/modules/extra-activity/ExtraActivityController.php on line 195
+[04-May-2016 13:53:16 Asia/Kathmandu] PHP Fatal error:  Class 'Applicant' not found in /home/sparklew/public_html/esms/app/modules/message/MessageController.php on line 310
+[04-May-2016 14:30:06 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sparklew/public_html/esms/app/modules/student/StudentController.php on line 57
+[04-May-2016 14:30:16 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sparklew/public_html/esms/app/modules/student/StudentController.php on line 57
+[04-May-2016 14:30:49 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sparklew/public_html/esms/app/modules/student/StudentController.php on line 57
+[07-May-2016 20:32:23 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected end of file in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 1271
+[12-May-2016 12:34:54 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/report/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:174
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(174): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 174, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(174): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks(A in /home/sparklew/public_html/esms/app/routes.php on line 174
+[12-May-2016 12:34:54 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/report/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 174
+[12-May-2016 15:36:20 Asia/Kathmandu] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php on line 25
+[12-May-2016 15:37:58 Asia/Kathmandu] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php on line 25
+[17-May-2016 12:31:31 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '{' in /home/sparklew/public_html/esms/app/modules/message/MessageController.php on line 321
+[17-May-2016 12:32:01 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '{' in /home/sparklew/public_html/esms/app/modules/message/MessageController.php on line 321
+[17-May-2016 13:00:52 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Classes' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/ApiController.php on line 123
+[30-May-2016 22:09:38 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:38 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:44 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:44 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:47 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:47 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:49 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:09:49 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:02 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:02 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:09 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:09 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:24 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:24 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:34 Asia/Kathmandu] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/sparklew/public_html/esms/app/modules/employee/route.php): failed to open stream: No such file or directory' in /home/sparklew/public_html/esms/app/routes.php:158
+Stack trace:
+#0 /home/sparklew/public_html/esms/app/routes.php(158): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/sparklew/...', 158, Array)
+#1 /home/sparklew/public_html/esms/app/routes.php(158): require_once()
+#2 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/sparklew/...')
+#3 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#4 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(830): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#5 /home/sparklew/public_html/esms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->fireAppCallbacks in /home/sparklew/public_html/esms/app/routes.php on line 158
+[30-May-2016 22:10:34 Asia/Kathmandu] PHP Fatal error:  main(): Failed opening required '/home/sparklew/public_html/esms/app/modules/employee/route.php' (include_path='/home/sparklew/public_html/esms/vendor/phpseclib/phpseclib/phpseclib:.:/opt/php55/lib/php') in /home/sparklew/public_html/esms/app/routes.php on line 158
+[31-May-2016 00:08:24 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected ';' in /home/sparklew/public_html/esms/app/storage/views/02a93158f8c5d9653ba5f90048b81b72 on line 6
+[31-May-2016 00:10:14 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '}' in /home/sparklew/public_html/esms/app/storage/views/02a93158f8c5d9653ba5f90048b81b72 on line 6
+[31-May-2016 00:13:34 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected ';' in /home/sparklew/public_html/esms/app/storage/views/02a93158f8c5d9653ba5f90048b81b72 on line 6
+[01-Jun-2016 16:02:29 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:02:43 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:02:55 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:02:57 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:03:42 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:03:42 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:03:49 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:03:51 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[01-Jun-2016 16:04:06 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/sparklew/public_html/esms/app/modules/api/route.php on line 71
+[07-Jun-2016 11:49:14 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected 'functio' (T_STRING), expecting variable (T_VARIABLE) in /home/sparklew/public_html/esms/app/modules/message/MessageController.php on line 895

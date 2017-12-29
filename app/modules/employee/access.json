@@ -1,0 +1,83 @@
+{
+    "can_view": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "15",
+            "16",
+            "18"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": [
+
+        ]
+    },
+    "can_create": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Create",
+        "routes": [
+
+        ]
+    },
+    "can_edit": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Edit",
+        "routes": [
+
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Delete",
+        "routes": [
+
+        ]
+    },
+    "can_reset_password": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [
+
+        ],
+        "frontend": "no",
+        "alias": "Can Change Password",
+        "routes": [
+
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "student_name": "Umesh Kafle",
+    "student_id": "89",
+    "guardian_id": "20",
+    "student_username": "s1408",
+    "guardian_username": "p5732",
+    "student_image": "",
+    "guardian_image": "",
+    "current_roll_number": "50",
+    "guardian_contact": "9841414141",
+    "sex": "male",
+    "current_address": "Bhaktapur"
+}

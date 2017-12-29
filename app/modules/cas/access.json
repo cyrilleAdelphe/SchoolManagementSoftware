@@ -1,0 +1,17 @@
+{
+    "can_view": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View",
+        "routes": []
+    }
+}

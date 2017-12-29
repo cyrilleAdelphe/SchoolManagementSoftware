@@ -1,0 +1,31 @@
+{
+    "can_view": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+            "student",
+            "guardian"
+        ],
+        "alias": "Can View",
+        "routes": [
+            
+        ]
+    },
+    "can_delete": {
+        "admin": [
+            "2",
+            "3",
+            "4"
+        ],
+        "users": [
+
+        ],
+        "alias": "Can Delete",
+        "routes": [
+            
+        ]
+    }
+}

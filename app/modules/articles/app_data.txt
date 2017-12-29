@@ -1,0 +1,11 @@
+{
+    "about_us": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id odio maximus suscipit eget at odio. Cras gravida nibh erat, nec suscipit sem vulputate sit amet. Maecenas sit amet varius enim. Vestibulum consectetur enim rhoncus commodo placerat. Phasellus commodo diam a massa consectetur, ac tristique ligula pretium. Pellentesque facilisis neque sit amet pharetra condimentum. Nullam non ex sagittis, imperdiet diam ac, ullamcorper nisi.",
+    "facebook_link": "https:\/\/www.facebook.com\/etontechnology",
+    "twitter_link": "",
+    "contact_number": "",
+    "lat": "27.705919",
+    "lng": "85.316820",
+    "phone_number": "+97714265538",
+    "address": "Bagbazar 31, Kathmandu, Nepal",
+    "email": "roshan@etonins.com"
+}

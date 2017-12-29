@@ -1,0 +1,277 @@
+{
+    "can_create_discount": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create Discount",
+        "routes": []
+    },
+    "can_create_organization": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create Organization",
+        "routes": []
+    },
+    "can_edit_organization": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit Organization",
+        "routes": []
+    },
+    "can_view_organization": {
+        "admin": [
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Organization",
+        "routes": []
+    },
+    "can_edit_discount": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit Discount",
+        "routes": []
+    },
+    "can_delete_discount": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete Discount",
+        "routes": []
+    },
+    "can_delete_organization": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete Organization",
+        "routes": []
+    },
+    "can_create_extra_fee": {
+        "admin": [
+            "9",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create Extra Fee",
+        "routes": []
+    },
+    "can_create_fee": {
+        "admin": [
+            "9",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create Fee",
+        "routes": []
+    },
+    "can_print_fee": {
+        "admin": [
+            "9",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Print Fee",
+        "routes": []
+    },
+    "can_edit_fee": {
+        "admin": [
+            "9",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Edit Fee",
+        "routes": []
+    },
+    "can_delete_fee": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Delete Fee",
+        "routes": []
+    },
+    "can_view_income_report": {
+        "admin": [
+            "9",
+            "14"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Income Report",
+        "routes": []
+    },
+    "can_view_tax_report": {
+        "admin": [
+            "9",
+            "14"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Tax Report",
+        "routes": []
+    },
+    "can_view_remaining_due_list": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Remaining Due List",
+        "routes": []
+    },
+    "can_set_late_fee": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Set Late Fee",
+        "routes": []
+    },
+    "can_receive_payment": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Receive Payment",
+        "routes": []
+    },
+    "can_generate_fee": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Generate Fee",
+        "routes": []
+    },
+    "can_print_direct_invoice": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Print Direct Invoice",
+        "routes": []
+    },
+    "can_set_opening_balance": {
+        "admin": [
+            "9"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Set Opening Balance",
+        "routes": []
+    },
+    "can_view_invoice": {
+        "admin": [],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Invoice",
+        "routes": []
+    },
+    "can_view_invoice_list": {
+        "admin": [],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Invoice List",
+        "routes": []
+    },
+    "can_view_opening_balance": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Opening Balance",
+        "routes": []
+    },
+    "can_view_statement": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Statement",
+        "routes": []
+    },
+    "can_send_push_notification": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Send Push Notifications",
+        "routes": []
+    },
+    "can_view_transaction": {
+        "admin": [
+            "9",
+            "14",
+            "16"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Transaction",
+        "routes": []
+    },
+    "can_view_receipt_list": {
+        "admin": [
+            "9",
+            "14",
+            "18"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Receipt List",
+        "routes": []
+    },
+    "can_view_receipt_transaction": {
+        "admin": [
+            "9",
+            "14",
+            "18"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can View Receipt Transaction",
+        "routes": []
+    }
+    
+}

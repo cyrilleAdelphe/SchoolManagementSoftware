@@ -1,0 +1,13 @@
+{
+    "student_name": "Richa Sharma",
+    "student_id": "80",
+    "guardian_id": "17",
+    "student_username": "s1107",
+    "guardian_username": "p6942",
+    "student_image": "",
+    "guardian_image": "_MTQ3MTQyMDQ4NA==57b41844b0e35.jpg",
+    "current_roll_number": "0",
+    "guardian_contact": "Raju Sharma",
+    "sex": "female",
+    "current_address": "Lamachaur, Pokhara"
+}

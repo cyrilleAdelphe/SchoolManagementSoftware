@@ -1,0 +1,13 @@
+{
+    "student_name": "Kedar R Kunwar",
+    "student_id": "94",
+    "guardian_id": "25",
+    "student_username": "s8323",
+    "guardian_username": "p6825",
+    "student_image": "_MTQ3MTUxNTM3OQ==57b58af386b7a.jpg",
+    "guardian_image": "",
+    "current_roll_number": "87",
+    "guardian_contact": "",
+    "sex": "male",
+    "current_address": "Bagbazar, Kathmandu"
+}

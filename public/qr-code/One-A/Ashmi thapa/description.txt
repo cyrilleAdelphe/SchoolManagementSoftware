@@ -1,0 +1,13 @@
+{
+    "student_name": "Ashmi thapa",
+    "student_id": "1",
+    "guardian_id": "3",
+    "student_username": "s8092",
+    "guardian_username": "p8880",
+    "student_image": "_MTQ2Nzg2OTkyMQ==577deae18ba28.jpg",
+    "guardian_image": "_MTQ2Nzg3MDg4NQ==577deea5f2a8d.jpg",
+    "current_roll_number": "3",
+    "guardian_contact": "981408976",
+    "sex": "female",
+    "current_address": "Baneshwor"
+}

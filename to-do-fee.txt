@@ -1,0 +1,7 @@
+1. Fee is not deleted  (done)
+2. Add delete in Discount list -- when discount title is deleted.. discounts of the students entitled those discounts title will be cancelled (done)
+3. Add delete in Organization manager (done)
+4. Add All in section while generating fee
+5. Add filter Transaction list (done)
+6. Income report calculation mistake
+7. Transaction number all 10 in T.List
