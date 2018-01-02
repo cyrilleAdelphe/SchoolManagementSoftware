@@ -26,6 +26,7 @@ $(function()
 
     //url += '?file_name=' + file_name + '&json=' + main_data_row;
     $('#export-to-excel-form').append("<input type = 'hidden' name = 'json' value = '"+ main_data_row +"'><input type = 'hidden' name = 'file_name' value = '"+file_name+"'>");
+    //console.log($('#export-to-excel-form').html());
     $('#export-to-excel-form').submit();
     //window.location.href = url;
   });

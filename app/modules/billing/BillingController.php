@@ -901,7 +901,6 @@ class BillingController extends BaseController
 		$start_date = Input::get('start_date');
 
 		$data = $this->apiGetDueInvoicesData($due_days, $start_date);
-
 		$start_date = Carbon::createFromFormat('Y-m-d', $start_date)->format('d M Y');
 		return View::make($this->view.'due-reports.ajax-remaining-due')
 					->with('data', $data)
@@ -930,10 +929,12 @@ class BillingController extends BaseController
 		$return_data = [];
 		foreach($data as $d)
 		{
+			$credit_note_sum = BillingHelperController::calculateSumOfCreditNotes($d->id);
 			if(isset($return_data[$d->related_user_group][$d->class_section]))
 				$return_data[$d->related_user_group][$d->class_section] += ($d->invoice_balance - $d->received_amount);
 			else
 				$return_data[$d->related_user_group][$d->class_section] = ($d->invoice_balance - $d->received_amount);
+			$return_data[$d->related_user_group][$d->class_section] -= $credit_note_sum;
 		}
 
 
@@ -948,7 +949,27 @@ class BillingController extends BaseController
 		$related_user_group = Input::get('related_user_group');
 		$class_section = Input::get('class_section');
 
-		$data = $this->apiGetDueInvoiceDetailsData($start_date, $due_days, $related_user_group, $class_section);
+		$data = [];
+		$temp_data = $this->apiGetDueInvoiceDetailsData($start_date, $due_days, $related_user_group, $class_section);
+
+		foreach($temp_data as $index => $d)
+		{
+			if(isset($data[$d->related_user_id]))
+			{
+				$data[$d->related_user_id]->invoice_balance += $d->invoice_balance - BillingHelperController::calculateSumOfCreditNotes($d->id);
+				$data[$d->related_user_id]->received_amount += $d->received_amount;
+				$data[$d->related_user_id]->financial_year .= ','.$d->financial_year;
+				$data[$d->related_user_id]->invoice_number .= ','.$d->invoice_number;
+			}
+			else
+			{
+				$d->invoice_balance -= BillingHelperController::calculateSumOfCreditNotes($d->id);
+				$data[$d->related_user_id] = $d;
+			}
+
+			unset($temp_data[$index]);
+		}
+		unset($temp_data);
 
 		$start_date = Carbon::createFromFormat('Y-m-d', $start_date)->format('d M Y');
 		return View::make($this->view."due-reports.ajax-remaining-due-details")
@@ -987,6 +1008,7 @@ class BillingController extends BaseController
 						->where('is_cleared', '!=', 'cancel')
 						///////// billing-cancel-v1-changes /////////
 						->where('related_user_group', $related_user_group)
+						->orderBy('name', 'ASC')
 						->get();
 		}
 		elseif($related_user_group == 'student')
@@ -1000,7 +1022,7 @@ class BillingController extends BaseController
 						$join->on($invoice_table.'.related_user_id', '=', $student_registration_table.'.id')
 							 ->where('related_user_group', '=', 'student');
 					})
-					->select(array('invoice_balance', 'received_amount', $invoice_table.'.id', 'related_user_group', 'class_section', $invoice_table.'.issued_date as as created_at', 'student_name as name', 'related_user_id', 'financial_year', 'invoice_number'))
+					->select(array('invoice_balance', 'received_amount', $invoice_table.'.id', 'related_user_group', 'class_section', $invoice_table.'.issued_date as as created_at', 'student_name as name', 'last_name', 'related_user_id', 'financial_year', 'invoice_number'))
 					//->whereRaw( $sql )
 					->where($invoice_table.'.issued_date', '<=', $start_date)
 					->where('is_final','yes')
@@ -1010,6 +1032,7 @@ class BillingController extends BaseController
 					///////// billing-cancel-v1-changes /////////
 					->where('related_user_group', $related_user_group)
 					->where('class_section', $class_section)
+					->orderBy('name', 'ASC')
 					->get();
 		}
 
