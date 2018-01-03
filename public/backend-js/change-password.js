@@ -17,7 +17,7 @@ $(function()
         else
         {
             $(this).attr('disabled', true);
-            $(this).parent().find('.change-password-form').submit();
+            $(this).find('.change-password-form').submit();
             //$(this).parent().find('form').submit();
         }
         

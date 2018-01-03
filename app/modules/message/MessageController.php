@@ -125,6 +125,63 @@ class MessageController extends BaseController
 
 
 			}
+
+			$_name = '';
+			$_username = '';
+
+			if($input['message_from_group'] == 'superadmin')
+			{
+				$_name = Superadmin::where('id', $input['message_from_id'])
+									->pluck('name');
+			}
+			elseif($input['message_from_group'] == 'admin')
+			{
+				$_name = Employee::where('id', $input['message_from_id'])
+									->pluck('employee_name');
+			}
+			elseif($input['message_from_group'] == 'guardian')
+			{
+				$_name = Guardian::where('id', $input['message_from_id'])
+									->pluck('guardian_name');
+				$children = StudentGuardianRelation::where('guardian_id', $input['message_from_id'])
+								->lists('student_id');
+									
+				
+				$student_registration_table = StudentRegistration::getTableName();
+				$student_table = Student::getTableName();
+				$class_table = Classes::getTableName();
+
+				$children_name = DB::table($student_registration_table)
+									->join($student_table, $student_table.'.student_id', '=', $student_registration_table.'.id')
+									->join($class_table, $class_table.'.id', '=', 'current_class_id')
+									->whereIn('student_id', $children)
+									->where('current_session_id', HelperController::getCurrentSession())
+									->select($student_registration_table.'.*', 'class_name', 'current_section_code', 'current_roll_number')
+									->get();
+
+				$_name .= ' ( ';
+
+				foreach($children_name as $c)
+				{
+					$_name .= $c->student_name.' '.$c->last_name.' '.$c->class_name.' - '.$c->current_section_code.' - '.$c->current_roll_number."\n";
+				}
+
+				$_name .= ' ) ';
+
+			}
+			elseif($input['message_from_group'] == 'student')
+			{
+				$_name = StudentRegistration::where('id', $input['message_from_id'])
+									->first();
+
+				if($_name)
+				{
+					$_name = $_name->student_name.' '.$_name->last_name;
+				}
+			}
+			
+			$input['message'] .= ' - '.$_name;
+
 			
 			$msg = 'message # ' .
 							'subject: ' . $input['message_subject'] . "\n" .

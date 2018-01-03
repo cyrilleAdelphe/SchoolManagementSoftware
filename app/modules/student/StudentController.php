@@ -1262,140 +1262,7 @@ StudentRegistration::getTableName().'.house_id')
 	{
 		ini_set('max_execution_time', 300); 
 		AccessController::allowedOrNot('student', 'can_import');//300 seconds = 5 minutes
-		/*
-		$validator = Validator::make(
-									array(
-										'excel_file' => Input::hasFile('excel_file') ? Input::file('excel_file')->getClientOriginalExtension() : '',
-										'registered_session_id' => Input::get('registered_session_id'),
-										'registered_class_id' => Input::get('registered_class_id'),
-										'registered_section_code' => Input::get('registered_section_code')
-									),
-									array(
-										'excel_file' => array('required', 'in:xls,xlsx,csv'),
-										//'excel_file' => array('required', 'mimes:xls,xlsx'),
-										'registered_session_id' => ['required', 'not_in:0'],
-										'registered_class_id' => ['required', 'not_in:0'],
-										'registered_section_code' => ['required', 'not_in:0'],
-									)
-								);
-		if ($validator->fails())
-		{
-			return Redirect::back()
-											->withInput()
-											->withErrors($validator);
-		}
-
-		$success = false;
-		$msg = '';
-		$param = array('id' => 0);
-
-
-		$reader = Excel::load(Input::file('excel_file'))
-										->get();
 		
-		try
-		{
-			DB::connection()->getPdo()->beginTransaction();	
-
-			// For file with single sheet
-			foreach($reader as $row)
-			{
-				// convert object to array
-				$data = json_decode(json_encode($row), true);
-				foreach($data as $key => $value)
-				{
-					if ($value == null)
-					{
-						$data[$key] = '';
-					}
-				}
-
-				if (!isset($data['student_name']) || !$data['student_name'])
-				{
-					continue;
-				}
-
-				if (isset($data['dob_in_ad']) && gettype($data['dob_in_ad'])=='array')
-				{
-					$data['dob_in_ad'] = substr($data['dob_in_ad']['date'],0, 10);
-				}
-
-				if (isset($data['dob_in_bs']) && gettype($data['dob_in_bs'])=='array')
-				{
-					$data['dob_in_bs'] = substr($data['dob_in_bs']['date'],0, 10);
-				}
-				$data['sex'] = trim($data['sex']);
-				
-				$data['registered_session_id'] = Input::get('registered_session_id');
-				$data['registered_class_id'] = Input::get('registered_class_id');
-				$data['registered_section_code'] = Input::get('registered_section_code');
-				$data['is_active'] = 'yes';
-				$data['password'] = DEFAULT_PASSWORD;
-				$data['confirm_password'] = DEFAULT_PASSWORD;
-				$data['unique_school_roll_number'] = Input::get('unique_school_roll_number');
-
-				if (isset($data['username']) && strlen($data['username']))
-				{
-					$student = Users::where('username', $data['username'])
-						->where('role', 'student')
-						->where('is_active', 'yes')
-						->first();
-					
-					if ($student)
-					{
-						$result = $this->storeOrUpdateInStudentTable($data, $student->user_details_id);	
-					}
-					else
-					{
-						$result = array(
-							'success' => false,
-							'msg' => 'Username ' . $data['username'] . ' not found'
-						);
-					}
-					
-				}
-				else
-				{
-					$result = $this->createStudent($data);
-				}
-
-				if (!$result['success'])
-				{
-					// echo '<pre>';
-					// print_r($data);
-					// print($result['msg']);
-					// die();
-					
-					Session::flash('error-msg', $result['msg']);
-					return Redirect::back()
-													->withInput();
-				}
-				
-			}
-
-			$success = true;
-			$msg = 'Students created';
-			$param = $result['param'];
-
-			DB::connection()->getPdo()->commit();
-		}
-		catch (Exception $e)
-		{
-			DB::connection()->getPdo()->rollback();
-			$success = false;
-			$msg = $e->getMessage();
-			// die($msg);
-		}
-		
-		if (!$success)
-		{
-			Session::flash('error-msg', $msg);
-			return Redirect::back();
-		}
-		else
-		{
-			return $this->redirectAction($success, 'create', $param, $msg);
-		}*/
 		$excel_header_map = ['first_name' => 'First Name', 'last_name' =>	'Last Name', 	'roll_no' => 'Roll No',	'house' => 'House',	'ethnicity' => 'Ethnicity',	'current_address' => 'Current Address',	'permanent_address' => 'Permanent Address', 	'sex_malefemale' => 'Sex (Male/Female)', 	'dob_yy_mm_dd' => 'DOB (YY-MM-DD)', 'primary_contact'=>	'Primary Contact', 	'secondary_contact'=>'Secondary Contact', 'email' => 'Email', 'father_name' => 'Father Name', 	'mother_name' =>'Mother Name',	'multiple_children_number' => 'multiple_children_number',	'class' => 'Class Name', 'section_name' =>	'Section Name'];
 		
 		$reader = Excel::load(Input::file('excel_file'))
@@ -1534,6 +1401,7 @@ StudentRegistration::getTableName().'.house_id')
 				$data_to_store_in_student_table['current_session_id'] = $current_session_id;
 				$data_to_store_in_student_table['current_class_id'] = $class_id;
 				$data_to_store_in_student_table['current_section_code'] = $section_code;
+				$data_to_store_in_student_table['current_roll_number'] = $row['roll_no'];
 				$data_to_store_in_student_table['is_active'] = 'yes';
 				$data_to_store_in_student_table['student_id'] = $student_id;
 				Student::firstOrCreate($data_to_store_in_student_table);
