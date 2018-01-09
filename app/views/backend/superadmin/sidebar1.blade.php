@@ -164,6 +164,12 @@
               Create Extra fees
             </a>
           </li>
+          <li class = "treeview-item">
+            <a href="{{URL::route('billing-assign-fee-to-discount-get')}}">
+              <i class="fa fa-circle-o"></i>
+              Fee to Discount
+            </a>
+          </li>
           <li class="treeview-item">
             <a href="{{URL::route('billing-generate-fee-get')}}">
               <i class="fa fa-circle-o"></i>
