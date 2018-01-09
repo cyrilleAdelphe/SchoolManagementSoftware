@@ -17,7 +17,44 @@ class BillingController extends BaseController
 
 	public $current_user;
 	
-		public function getListView()
+	public function getAssignFeeToDiscount()
+	{
+		return View::make($this->view.'discount.assign-fee-to-discount');
+	}
+
+	public function postAssignFeeToDiscount()
+	{
+		$input = Input::all();
+
+		$students = BillingDiscountDetails::where('discount_id', $input['discount_id'])
+											->lists('student_id');
+
+		try
+		{
+			DB::connection()->getPdo()->beginTransaction();
+
+				foreach($students as $s)
+				{
+					$record = BillingDiscountDetails::firstOrCreate([
+							'discount_id'	=>	$input['discount_id'],
+							'fee_id'	=>	$input['fee_id'],
+							'student_id'	=>	$s
+						]);	
+					$record->discount_percent = $input['discount_percent'];
+					$record->save();
+				}
+
+				\Session::flash('success-msg', 'Fee successfully added to discounts');
+			DB::connection()->getPdo()->commit();	
+		}catch(Exception $e)
+		{
+			\Session::flash('error-msg', $e->getMessage());
+		}
+
+		return Redirect::back();
+	}
+
+	public function getListView()
 	{
 		
 		AccessController::allowedOrNot($this->module_name, 'can_view');

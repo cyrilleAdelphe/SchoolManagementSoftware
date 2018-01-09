@@ -8,6 +8,17 @@ Route::group(['before' => 'reg-superadmin-admin'], function()
 {
 	Route::group(['prefix' => 'billing'], function()
 	{	
+		Route::get('assign-fee-to-discount',
+			['as'	=>	'billing-assign-fee-to-discount-get',
+			 'uses'	=>	'BillingController@getAssignFeeToDiscount']);
+
+		Route::group(['before'	=>	'csrf'], function()
+		{
+			Route::post('assign-fee-to-discount',
+				['as'	=>	'billing-assign-fee-to-discount-post',
+				 'uses'	=>	'BillingController@postAssignFeeToDiscount']);
+		});
+
 		/*Route::get('api-get-statement-list-view',
 			['as'	=>	'billing-api-get-statement-list-view',
 			 'uses'	=>	'BillingController@apiGetStatementListView']);*/
