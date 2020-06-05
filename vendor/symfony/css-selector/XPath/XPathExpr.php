@@ -21,19 +21,8 @@ namespace Symfony\Component\CssSelector\XPath;
  */
 class XPathExpr
 {
-    /**
-     * @var string
-     */
     private $path;
-
-    /**
-     * @var string
-     */
     private $element;
-
-    /**
-     * @var string
-     */
     private $condition;
 
     /**
@@ -64,7 +53,7 @@ class XPathExpr
     /**
      * @param $condition
      *
-     * @return XPathExpr
+     * @return $this
      */
     public function addCondition($condition)
     {
@@ -82,7 +71,7 @@ class XPathExpr
     }
 
     /**
-     * @return XPathExpr
+     * @return $this
      */
     public function addNameTest()
     {
@@ -95,7 +84,7 @@ class XPathExpr
     }
 
     /**
-     * @return XPathExpr
+     * @return $this
      */
     public function addStarPrefix()
     {
@@ -110,7 +99,7 @@ class XPathExpr
      * @param string    $combiner
      * @param XPathExpr $expr
      *
-     * @return XPathExpr
+     * @return $this
      */
     public function join($combiner, XPathExpr $expr)
     {

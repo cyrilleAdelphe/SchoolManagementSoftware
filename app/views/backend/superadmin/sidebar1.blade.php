@@ -391,12 +391,12 @@
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
-          <li class="treeview-item"><a href="{{URL::route('create-group')}}"><i class="fa fa-circle-o"></i>Create Group</a></li>
+          <!-- <li class="treeview-item"><a href="{{URL::route('create-group')}}"><i class="fa fa-circle-o"></i>Create Group</a></li> -->
           <li class="treeview-item"><a href="{{URL::route('settings-general-get')}}"><i class="fa fa-circle-o"></i>General Settings</a></li>
           
-          <li class="treeview-item"><a href="#"><i class="fa fa-circle-o"></i>Language Manager</a></li>
+          <!-- <li class="treeview-item"><a href="#"><i class="fa fa-circle-o"></i>Language Manager</a></li> -->
           <li class="treeview-item"><a href="{{URL::route('access-list')}}"><i class="fa fa-circle-o"></i>Access Control</a></li>
-          <li class="treeview-item"><a href="{{URL::route('download-manager-drive-config-get')}}"><i class="fa fa-circle-o"></i>Google Drive Control</a></li>
+          <!-- <li class="treeview-item"><a href="{{URL::route('download-manager-drive-config-get')}}"><i class="fa fa-circle-o"></i>Google Drive Control</a></li> -->
           <li class="treeview-item"><a href="{{URL::route('users-list')}}"><i class="fa fa-circle-o"></i>Manage Students &Parents</a></li>
         </ul>
       </li>        

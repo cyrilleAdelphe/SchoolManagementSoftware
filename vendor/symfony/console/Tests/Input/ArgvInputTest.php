@@ -11,12 +11,13 @@
 
 namespace Symfony\Component\Console\Tests\Input;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
-class ArgvInputTest extends \PHPUnit_Framework_TestCase
+class ArgvInputTest extends TestCase
 {
     public function testConstructor()
     {
@@ -163,7 +164,12 @@ class ArgvInputTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvalidInput($argv, $definition, $expectedExceptionMessage)
     {
-        $this->setExpectedException('RuntimeException', $expectedExceptionMessage);
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('RuntimeException');
+            $this->expectExceptionMessage($expectedExceptionMessage);
+        } else {
+            $this->setExpectedException('RuntimeException', $expectedExceptionMessage);
+        }
 
         $input = new ArgvInput($argv);
         $input->bind($definition);
@@ -289,6 +295,12 @@ class ArgvInputTest extends \PHPUnit_Framework_TestCase
     {
         $input = new ArgvInput(array('cli.php', '-f', 'foo'));
         $this->assertTrue($input->hasParameterOption('-f'), '->hasParameterOption() returns true if the given short option is in the raw input');
+
+        $input = new ArgvInput(array('cli.php', '-fh'));
+        $this->assertTrue($input->hasParameterOption('-fh'), '->hasParameterOption() returns true if the given short option is in the raw input');
+
+        $input = new ArgvInput(array('cli.php', '-e=test'));
+        $this->assertFalse($input->hasParameterOption('-s'), '->hasParameterOption() returns true if the given short option is in the raw input');
 
         $input = new ArgvInput(array('cli.php', '--foo', 'foo'));
         $this->assertTrue($input->hasParameterOption('--foo'), '->hasParameterOption() returns true if the given short option is in the raw input');

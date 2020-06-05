@@ -1,5 +1,6 @@
 <?php
 
+error_reporting(E_ALL ^ E_DEPRECATED);
 return array(
 
 	/*
@@ -26,7 +27,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/surkhet/',
+	'url' => 'http://localhost/eton_school/',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -130,6 +131,7 @@ return array(
 		Intervention\Image\ImageServiceProvider::class,
 		//'Djereg\AsyncQueue\AsyncQueueServiceProvider',
 		'SimpleSoftwareIO\QrCode\QrCodeServiceProvider',
+		'Milon\Barcode\BarcodeServiceProvider',
 		//'Maxxscho\LaravelTcpdf\LaravelTcpdfServiceProvider',
 		'Coreproc\LaravelDbBackup\LaravelDbBackupServiceProvider',
 	),
@@ -201,6 +203,8 @@ return array(
 		'Image'						=> 'Intervention\Image\Facades\Image',
 		'Excel'						=> 'Maatwebsite\Excel\Facades\Excel',
 		'Image' =>          Intervention\Image\Facades\Image::class,
+		'DNS1D' => 'Milon\Barcode\Facades\DNS1DFacade',
+   		'DNS2D' => 'Milon\Barcode\Facades\DNS2DFacade',
 		'QrCode' 		  => 'SimpleSoftwareIO\QrCode\Facades\QrCode'
 
 	),

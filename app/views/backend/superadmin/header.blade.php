@@ -1,6 +1,6 @@
 <header class="main-header">
   <!-- Logo -->
-  <a href="index2.html" class="logo">
+  <a href="#" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini"><b>{{SettingsHelper::getGeneralSetting('short_school_name')}}</b></span>
     <!-- logo for regular state and mobile devices -->
@@ -34,7 +34,7 @@
               @else
                 <img src="{{asset('/sms/assets/img/pic.png')}}" class="img-circle" alt="User Image" />
               @endif
-              <script src="{{Config::get('app.url').'/app/modules/gallery/assets/js/dynamicImages.js'}}"></script>
+
               <p>
                 {{Auth::superadmin()->user()->name}}
               </p>

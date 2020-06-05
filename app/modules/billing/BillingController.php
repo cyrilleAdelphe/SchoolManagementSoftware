@@ -463,6 +463,7 @@ class BillingController extends BaseController
 	{
 		AccessController::allowedOrNot('billing', 'can_edit_fee');
 		$data = (new BillingFee)->getEditViewData($id);
+		
 		return View::make($this->view.'edit-fee')->with('id', $id)->with('data', $data);
 					//->with('data', $data);
 	}

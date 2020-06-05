@@ -22,7 +22,7 @@
           <div class="form-group">
               <input name="new_password_confirm" id="fullname" class="form-control" type="password" placeholder="Re-enter password" />
           </div>
-          <div class = 'form-group'>
+          <!-- <div class = 'form-group'>
 						<label for = 'photo'  class = 'control-label'>Photo :</label>
 						<br/>
 						@if (File::exists(app_path(). '/modules/superadmin/assets/images/'. Auth::superadmin()->user()->id))
@@ -32,7 +32,7 @@
 						@endif
 						<br/><br/>
 						<input type = 'file' name = 'photo'>
-					</div>
+					</div> -->
         </div>
         {{ Form::token() }}
         <div class="modal-footer">

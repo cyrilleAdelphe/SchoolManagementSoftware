@@ -11,6 +11,26 @@
 		</a>
 	</div>
 
+	<div class="col-md-6">
+		<a href ="{{ URL::route('download-book-barcodes',0)}}" type="button" class="btn btn-success">Download All Barcodes</a>
+			
+		
+		</div>
+		</div>
+
+		<div class="col-md-6">
+		<form action="{{ URL::route('upload-books-from-excel')}}" enctype="multipart/form-data" method="POST">
+			<label>Upload Books Excel</label>
+			<input type="file" name="excel_file" class="form-control">
+			<input type="submit" value="Upload Books" class="btn btn-success">
+			<div style="color:red;">{{ $errors->first('excel_file')}}</div>
+		</form>
+		</div>
+		</div>
+	</div>
+
+
+
 	<section class="row">
         
     {{-- <div class="col-md-2">
@@ -55,6 +75,9 @@
 								<td>{{$d->max_holding_days}} Days</td>
 								
 								<td>
+
+									<a href = "{{ URL::route('download-book-barcodes', $d->id) }}"><button data-toggle="tooltip" title="" class="btn btn-info btn-flat" type="button" data-original-title="Download BarCode"><i class="fa fa-download" aria-hidden="true"></i>
+									</button></a>
 									<a href = "{{URL::route($module_name.'-view', $d->id)}}"><button data-toggle="tooltip" title="" class="btn btn-info btn-flat" type="button" data-original-title="View Detail"><i class="fa fa-fw fa-eye"></i></button></a>
 									<a href = "{{URL::route($module_name.'-edit-get', $d->id)}}"><button data-toggle="tooltip" title="" class="btn btn-success btn-flat" type="button" data-original-title="Edit"><i class="fa fa-fw fa-edit"></i></button></a>
 									<a href="#" data-toggle="modal" data-target="#delete{{$d->id}}" data-toggle="tooltip" title="Delete" class="btn btn-danger btn-flat" type="button"> <i class="fa fa-fw fa-trash"></i> </a>

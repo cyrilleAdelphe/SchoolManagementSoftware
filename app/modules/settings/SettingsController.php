@@ -1,6 +1,7 @@
 <?php
 
 class SettingsController  extends BaseController {
+	
 	protected $view = 'settings.views.';
 
 	protected $module_name = 'settings';
@@ -20,7 +21,7 @@ class SettingsController  extends BaseController {
 		else
 		{
 			die('General settings not created. Contact site administrators');
-		}
+		}		
 		return View::make($this->view . 'general')
 				->with('role', $this->role)
 				->with('general_settings', $general_settings);
@@ -35,7 +36,7 @@ class SettingsController  extends BaseController {
 												'long_school_name'	=> ['required'],
 												'short_school_name'	=> ['required'],
 												'address'	=> ['required'],
-												'school_logo' => ['image']
+												'school_logo' => ['image'], 												
 											)
 									);
 		if($validator->fails())
@@ -52,13 +53,20 @@ class SettingsController  extends BaseController {
 		unset($general_settings['_token']);
 		unset($general_settings['school_logo']);
 
+
 		if (Input::hasFile('school_logo'))
 		{
-			Input::file('school_logo')->move(SCHOOL_LOGO_LOCATION, SCHOOL_LOGO_FILENAME);
+			Input::file('school_logo')->move(SCHOOL_LOGO_LOCATION, SCHOOL_LOGO_FILENAME . '.' .Input::File('school_logo')->getClientOriginalExtension());
+			$general_settings['school_logo_name'] = SCHOOL_LOGO_FILENAME . '.' .Input::File('school_logo')->getClientOriginalExtension();
+		}
+		else
+		{
+			$general_settings['school_logo_name'] = " ";
 		}
 		
 		if (File::put(GENERAL_SETTINGS, json_encode($general_settings, JSON_PRETTY_PRINT)))
 		{
+
 			Session::flash('success-msg', 'Settings updated');
 		}
 		else

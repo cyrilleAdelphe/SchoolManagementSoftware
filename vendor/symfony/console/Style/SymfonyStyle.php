@@ -39,10 +39,6 @@ class SymfonyStyle extends OutputStyle
     private $lineLength;
     private $bufferedOutput;
 
-    /**
-     * @param InputInterface  $input
-     * @param OutputInterface $output
-     */
     public function __construct(InputInterface $input, OutputInterface $output)
     {
         $this->input = $input;
@@ -121,7 +117,7 @@ class SymfonyStyle extends OutputStyle
     {
         $this->autoPrependBlock();
         $this->writeln(array(
-            sprintf('<comment>%s</>', $message),
+            sprintf('<comment>%s</>', OutputFormatter::escapeTrailingBackslash($message)),
             sprintf('<comment>%s</>', str_repeat('=', strlen($message))),
         ));
         $this->newLine();
@@ -134,7 +130,7 @@ class SymfonyStyle extends OutputStyle
     {
         $this->autoPrependBlock();
         $this->writeln(array(
-            sprintf('<comment>%s</>', $message),
+            sprintf('<comment>%s</>', OutputFormatter::escapeTrailingBackslash($message)),
             sprintf('<comment>%s</>', str_repeat('-', strlen($message))),
         ));
         $this->newLine();
@@ -318,8 +314,6 @@ class SymfonyStyle extends OutputStyle
     }
 
     /**
-     * @param Question $question
-     *
      * @return string
      */
     public function askQuestion(Question $question)

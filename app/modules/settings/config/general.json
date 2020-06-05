@@ -1,7 +1,8 @@
 {
-    "long_school_name": "SOS HERMANN GMEINER SCHOOL SURKHET",
-    "short_school_name": "SOS - Surkhet",
+    "long_school_name": "Test School",
+    "short_school_name": "Test School",
     "address": "Birendranagar-4, Surkhet",
     "contact": "083520936",
-    "email": "hgs.surkhet@sosnepal.org.np"
+    "email": "hgs.surkhet@sosnepal.org.np",
+    "school_logo_name": "school_logo.jpg"
 }

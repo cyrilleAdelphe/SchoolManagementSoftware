@@ -33,6 +33,36 @@
         "alias": "Can Edit",
         "routes": []
     },
+    "can_download": {
+        "admin": [
+            "9",
+            "10"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Download",
+        "routes": []
+    },
+    "can_upload_books": {
+        "admin": [
+            "9",
+            "10"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Upload Books",
+        "routes": []
+    },
+       "can_create_barcode": {
+        "admin": [
+            "9",
+            "10"
+        ],
+        "users": [],
+        "frontend": "no",
+        "alias": "Can Create Barcode",
+        "routes": []
+    },
     "can_delete": {
         "admin": [
             "9",

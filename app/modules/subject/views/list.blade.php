@@ -111,6 +111,7 @@
 		if(academic_session_id!=0 && class_id!=0 && section_id!=0)
 		{
 			var current_url = $('#current_url').val();
+      alert(current_url);
 			current_url += '?class_id=' + class_id + '&section_id=' + section_id + '&academic_session_id=' + academic_session_id;
 			window.location.replace(current_url);
 		}

@@ -16,6 +16,10 @@
                 array('url'   =>  URL::route('book-categories-list'),
                       'alias' =>  'Categories',
                       'id'    =>  'tab_categories'),
+
+                array('url'   =>  URL::route('generete-bar-code-get'),
+                      'alias' =>  'Generate Bar Code',
+                      'id'    =>  'tab_barcodes'),
                 
                 );
 ?>

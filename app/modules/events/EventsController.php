@@ -286,7 +286,7 @@ class EventsController extends BaseController
 	{
 	AccessController::allowedOrNot($this->module_name, 'can_view');
 		$events_array = EventsHelper::getAllEvents();
-
+		
 		return View::make($this->view . 'calendar')
 					->with('events',json_encode($events_array))
 					->with('role',$this->role);

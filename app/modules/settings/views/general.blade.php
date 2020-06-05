@@ -24,10 +24,10 @@
         @endif
       </span>
       <div style=" max-width: 250px;">
-        @if (File::exists(SCHOOL_LOGO_LOCATION . '/' . SCHOOL_LOGO_FILENAME))
-          <img class="img-responsive" src = "{{SCHOOL_LOGO_URL}}" />
+        @if (strlen($general_settings->school_logo_name) > 0 )
+          <img class="img-responsive" src = "{{Config::get('app.url').'app/modules/settings/config/',$general_settings->school_logo_name}}"/>          
         @else
-          <img class="img-responsive" src = "{{Config::get('app.url').'app/modules/student/assets/images/no-img.png'}}" />
+          <p>No image avaiable</p>
         @endif
         
       </div>

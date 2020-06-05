@@ -15,6 +15,7 @@ return array(
     'PHPExcel' => array($vendorDir . '/phpoffice/phpexcel/Classes'),
     'Ollieread\\Multiauth' => array($vendorDir . '/ollieread/multiauth/src'),
     'Net' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
+    'Milon\\Barcode' => array($vendorDir . '/milon/barcode/src'),
     'Math' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Maatwebsite\\Excel\\' => array($vendorDir . '/maatwebsite/excel/src'),
     'Jeremeamia\\SuperClosure' => array($vendorDir . '/jeremeamia/SuperClosure/src'),

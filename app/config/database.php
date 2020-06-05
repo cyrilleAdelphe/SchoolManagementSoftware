@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'eton_surkhet',//'sparklew_school_management',
+			'database'  => 'eton_blank',//'sparklew_school_management',
 			'username'  => 'root',
-			'password'  => 'password',//'R,fKme?l@TdV',
+			'password'  => '',//'R,fKme?l@TdV',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => 'per_',

@@ -71,7 +71,7 @@ class SuperAdminController extends BaseController
 		return View::make($this->view.'login');
 	}
 
-public function postLogin()
+	public function postLogin()
 	{
 		$input_data = Input::all();
 
@@ -1326,7 +1326,7 @@ public function postLogin()
 
 			if (Input::hasFile('photo') && Input::file('photo')->isValid())
 			{
-				Input::file('photo')->move(app_path() . '/modules/superadmin/assets/images', $id);
+				Input::file('photo')->move(app_path() . '/modules/superadmin/assets/images', $id .'.'.Input::file('photo')->getClientOriginalExtension());
 			}
 
 			$result->save();
