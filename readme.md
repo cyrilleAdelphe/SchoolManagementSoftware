@@ -21,18 +21,20 @@ This is a school management software developed with laravel 4.2. Some of the mai
 It has plenty other features. <br>
 
 Clone the repository and type in the url:<br>
+<br>
+Superadmin Login <br>
 localhost:[portname]/[foldername]/superadmin/login<br>
 username: roshan@email.com <br>
 password: password<br>
-
-admin login (needs a bit of code cleanup)
+<br>
+Admin login (needs a bit of code cleanup)<br>
 localhost:[portname]/[foldername]/admin/login<br>
 create admin such as teacher through superadmin and by default the password is password <br>
 username:  create a teacher <br>
 password: password<br>
 
-
-user login (needs a bit of code cleanup)
+<br>
+User login (needs a bit of code cleanup) <br>
 localhost:[portname]/[foldername]/user/login<br>
 create student through superadmin and by default the password is password <br>
 username: create a student <br>
