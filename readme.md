@@ -1,25 +1,39 @@
-## Laravel PHP Framework
+## School management Software
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This is a school management software developed with laravel 4.2. Some of the main modules that it has are: <br>
+1. Academic Session<br>
+2. Access Control<br>
+3. Billing<br>
+4. Frontend Website (needs a little bit of cleanup)<br>
+5. Students<br>
+6. Teachers<br>
+7. Parents<br>
+8. Billing and Fees<br>
+9. Exam Manager<br>
+10. Push Notifications and SMS<br>
+11. Transportation tracking<br>
+12. Classes, Subjects<br>
+13. Attendance<br>
+14. Events<br>
+15. Extra Activities<br>
+16. Notice<br>
+17. PDR<br>
+It has plenty other features. <br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Clone the repository and type in the url:<br>
+localhost:[portname]/[foldername]/superadmin/login<br>
+username: roshan@email.com <br>
+password: password<br>
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+admin login (needs a bit of code cleanup)
+localhost:[portname]/[foldername]/admin/login<br>
+create admin such as teacher through superadmin and by default the password is password <br>
+username:  create a teacher <br>
+password: password<br>
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+user login (needs a bit of code cleanup)
+localhost:[portname]/[foldername]/user/login<br>
+create student through superadmin and by default the password is password <br>
+username: create a student <br>
+password: password
